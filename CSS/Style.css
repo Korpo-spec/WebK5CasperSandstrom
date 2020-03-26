@@ -1,0 +1,8 @@
+nav{
+    display: flex;
+    background-color: #984B43;
+    padding: 1em;
+    justify-content: space-evenly;
+    margin: -10px;
+    margin-bottom: 0px;
+}

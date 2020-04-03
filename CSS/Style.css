@@ -1,8 +1,81 @@
+html, body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    height: 100%;
+}
 nav{
     display: flex;
-    background-color: #984B43;
+    background-color: rgb(31, 30, 29);
     padding: 1em;
-    justify-content: space-evenly;
-    margin: -10px;
+    justify-content: space-between;
+    margin: -8px;
     margin-bottom: 0px;
+    
+    position: relative;
+    align-items: center;
+    z-index: 1;
+    
 }
+h1{
+    background-color: rgb(31, 30, 29);
+    
+    display: grid;
+}
+
+#dropDown{
+    display: grid;
+    font-weight: bold;
+    font-size: 22px;
+    
+    background-color: red;
+    padding: 2em;
+    
+    
+    
+}
+.grid{
+    
+    
+    
+    display: grid;
+    
+
+}
+.dropDownMenu{
+    background-color: rgb(17, 16, 15);
+    margin: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 100vh;
+    grid-row: 1;
+    grid-column: 1;
+    
+   
+}
+#dropDownMenu2{
+    background-color: rgb(156, 91, 26);
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 100vh;
+    display: block;
+    z-index: -1;
+    
+    display: none;
+    
+    grid-row: 1;
+    grid-column: 1;
+}
+    /*
+    animation-name: MenuSlideIn;
+    animation-duration: 2s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes MenuSlideIn{
+
+    from {height: 0%;}
+    to {height: 100%;}
+}
+/*

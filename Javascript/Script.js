@@ -70,7 +70,7 @@ function MenubuttonClicked() {
         elem.style.display = "block";
         elem2.style.display = "block";
         animateObject(elem, window.innerHeight, 0, 1000);
-        animateObject(elem2, 0,   -window.innerHeight, 1000);
+        animateObject(elem2, 0, -window.innerHeight, 1000);
         timesClicked++;
     }
    
@@ -96,3 +96,4 @@ function animateObject(element, start, stop, time) {
 
    
 }
+

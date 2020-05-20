@@ -26,20 +26,13 @@ h1{
     display: grid;
     font-weight: bold;
     font-size: 22px;
-    
-    /*background-color: red;
-    padding: 2em;
-    */
-    
-    
 }
 .grid{
-    
-    
-    
     display: grid;
-    
-
+}
+.gridItem{
+    grid-row: 1;
+    grid-column: 1;
 }
 .dropDownMenu{
     background-color: rgb(17, 16, 15);
@@ -47,25 +40,11 @@ h1{
     margin-left: -8px;
     margin-right: -8px;
     height: 100vh;
-    grid-row: 1;
-    grid-column: 1;
-    
-   
 }
 #dropDownMenu2{
     background-color: rgb(66, 66, 65);
-    margin-left: -8px;
-    margin-right: -8px;
-    height: 100vh;
-
     
-
-    z-index: -1;
     
-    display: none;
-    
-    grid-row: 1;
-    grid-column: 1;
 }
 
 .menuitems{
@@ -74,6 +53,7 @@ h1{
     flex-direction: column;
     height: 90%;
     margin-left: 10%;
+    
     
 }
 .menuitem{
@@ -85,5 +65,9 @@ h1{
     
     background:none;
     border: none;
-    
+   
+}
+.buttonClass{
+    z-index: 2;
+    position: relative;
 }

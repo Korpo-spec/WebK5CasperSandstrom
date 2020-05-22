@@ -87,9 +87,13 @@ h1{
 .gridMenuChoice{
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 5vh 40vh 10vh 10vh;
+    grid-template-rows: 5vh 40vh 5vh 4vh 7vh 10vh;
 }
-#paragraphFlappy{
+.paragraphFlappy{
+    grid-row: 6;
+    grid-column: 2;
+}
+.heading{
     grid-row: 4;
     grid-column: 2;
 }

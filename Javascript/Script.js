@@ -104,6 +104,9 @@ function animateObjectHorizontally(element, start, stop, time) {
                 
                 element.style.display = "none"
             }
+            else{
+                element.style.transform = 'translateX('+0+'px)';
+            }
             firstDone = !firstDone;
             
         }

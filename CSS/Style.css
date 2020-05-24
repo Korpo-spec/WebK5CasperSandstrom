@@ -1,7 +1,7 @@
 html, body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    height: 100%;
+    
 }
 nav{
     display: flex;
@@ -18,82 +18,88 @@ nav{
 }
 h1{
     background-color: rgb(31, 30, 29);
+
+}
+@media only screen and (max-width: 425px){
+    #dropDown{
+        display: grid;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .grid{
+        display: grid;
+    }
+    .gridItem{
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .dropDownMenu{
+        background-color: rgb(17, 16, 15);
+        margin: 0px;
+        margin-left: -8px;
+        margin-right: -8px;
+        height: 100vh;
+    }
+    #dropDownMenu2{
+        background-color: rgb(66, 66, 65);
+        
+        
+    }
     
-    display: grid;
+    .menuitems{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 90%;
+        margin-left: 10%;
+        
+        
+    }
+    .menuitem{
+        font-size: 1.5em;
+        text-decoration: underline;
+        color: white;
+    
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        background:none;
+        border: none;
+       
+    }
+    .buttonClass{
+        z-index: 2;
+        position: relative;
+    }
+    #flappySide{
+        background-image: url("../Img/FlappyBackground.png");
+        background-size: 50vh;
+        
+        
+    }
+    
+    .imgOnSide{
+        height: 100%;
+        width: 100%;
+        grid-column: 2;
+        grid-row: 2;
+        
+    }
+    .gridMenuChoice{
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 5vh 40vh 5vh 4vh 7vh 10vh;
+    }
+    #specialGrid{
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 5vh 60vh 5vh 4vh 7vh 10vh ;
+    }
+    .paragraphFlappy{
+        grid-row: 6;
+        grid-column: 2;
+    }
+    .heading{
+        grid-row: 4;
+        grid-column: 2;
+    }
 }
 
-#dropDown{
-    display: grid;
-    font-weight: bold;
-    font-size: 22px;
-}
-.grid{
-    display: grid;
-}
-.gridItem{
-    grid-row: 1;
-    grid-column: 1;
-}
-.dropDownMenu{
-    background-color: rgb(17, 16, 15);
-    margin: 0px;
-    margin-left: -8px;
-    margin-right: -8px;
-    height: 100vh;
-}
-#dropDownMenu2{
-    background-color: rgb(66, 66, 65);
-    
-    
-}
-
-.menuitems{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    height: 90%;
-    margin-left: 10%;
-    
-    
-}
-.menuitem{
-    font-size: 1.5em;
-    text-decoration: underline;
-    color: white;
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    background:none;
-    border: none;
-   
-}
-.buttonClass{
-    z-index: 2;
-    position: relative;
-}
-#flappySide{
-    background-image: url("../Img/FlappyBackground.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    
-}
-.imgOnSide{
-    height: 100%;
-    width: 100%;
-    grid-column: 2;
-    grid-row: 2;
-    
-}
-.gridMenuChoice{
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 5vh 40vh 5vh 4vh 7vh 10vh;
-}
-.paragraphFlappy{
-    grid-row: 6;
-    grid-column: 2;
-}
-.heading{
-    grid-row: 4;
-    grid-column: 2;
-}

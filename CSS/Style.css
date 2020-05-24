@@ -5,7 +5,7 @@ html, body{
 }
 nav{
     display: flex;
-    background-color: rgb(31, 30, 29);
+    background-color: #252525;
     padding: 1em;
     justify-content: space-between;
     margin: -8px;
@@ -17,7 +17,7 @@ nav{
     
 }
 h1{
-    background-color: rgb(31, 30, 29);
+    background-color: transparent;
 
 }
 #dropDown{
@@ -43,7 +43,7 @@ h1{
         height: 100vh;
     }
     #dropDownMenu2{
-        background-color: rgb(66, 66, 65);
+        background-color: #252b3d;
         
         
     }
@@ -117,7 +117,7 @@ h1{
         height: 87vh;
     }
     #dropDownMenu2{
-        background-color: rgb(66, 66, 65);
+        background-color: #282828;
     }
     .menuitems{
         display: flex;
